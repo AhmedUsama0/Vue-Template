@@ -1,0 +1,64 @@
+// html {
+//   overflow-x: hidden;
+// }
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  // border:2px solid;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.container {
+  // always specify min and max and when we want to increase container width just
+  // override max-width property in a specific element
+  // max-width: 1140px;
+  // min-width: 300px;
+  // border:2px solid;
+  padding: 0 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container-fluid {
+  max-width:1700px;
+  padding:0 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {
+  background-color: #fff;
+  font-family: "Roboto";
+}
+
+
+@media (max-width:767px) {
+
+}
+
+@media (min-width:768px) {
+  .container {
+    width:750px;
+  }
+}
+
+@media (min-width:992px) {
+  .container {
+    width:970px;
+  }
+}
+
+
+@media (min-width:1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+
+
